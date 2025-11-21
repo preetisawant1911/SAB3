@@ -9,33 +9,33 @@
     body {
       margin: 0;
       padding: 0;
-      height: 100vh;
+      min-height: 100vh;
       background: linear-gradient(to right, #43cea2, #185a9d); /* teal to blue galaxy vibe */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
       font-family: 'Segoe UI', sans-serif;
       color: white;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .feature-img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      margin-bottom: 20px;
     }
     .btn-home {
       margin-top: 20px;
-      background-color: white;
-      color: #185a9d;
-      border: none;
-      padding: 10px 20px;
-      font-weight: bold;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    .btn-home:hover {
-      background-color: #d0f0f0;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Feature Three</h1>
-  <a href="index.html" class="btn-home">Back to Home</a>
+  <h1 class="display-5 fw-bold mb-3">Welcome to Feature Three</h1>
+  <img src="p3.jpg" alt="Feature Three" class="feature-img" />
+  <p class="px-3">Experience the beauty of the Milky Way galaxy with breathtaking visuals and immersive exploration tools. Dive into cosmic wonders and learn about stars, nebulae, and galaxies.</p>
+  <a href="index.html" class="btn btn-light btn-lg btn-home">Back to Home</a>
 </body>
 </html>
