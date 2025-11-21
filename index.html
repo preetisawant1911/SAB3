@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAB3 Bootstrap Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SAB3 Project</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="py-5 text-center hero-section">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Welcome to SAB3 Project</h1>
+      <p class="lead">A clean and responsive layout using Bootstrap.</p>
+      <a href="#features" class="btn btn-primary btn-lg mt-3">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Features</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="p1.jpg" class="card-img-top" alt="Feature One">
+            <div class="card-body">
+              <h5 class="card-title">Feature One</h5>
+              <p class="card-text">Explore the stars with our advanced telescope.</p>
+              <a href="feature1.html" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="p2.jpg" class="card-img-top" alt="Feature Two">
+            <div class="card-body">
+              <h5 class="card-title">Feature Two</h5>
+              <p class="card-text">Discover Earth from space with real-time data.</p>
+              <a href="feature2.html" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="p3.jpg" class="card-img-top" alt="Feature Three">
+            <div class="card-body">
+              <h5 class="card-title">Feature Three</h5>
+              <p class="card-text">Experience the beauty of the Milky Way galaxy.</p>
+              <a href="feature3.html" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="p4.jpg" class="card-img-top" alt="Feature Four">
+            <div class="card-body">
+              <h5 class="card-title">Feature Four</h5>
+              <p class="card-text">Capture stunning landscapes from distant planets.</p>
+              <a href="feature4.html" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-light text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Preeti Sawant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
